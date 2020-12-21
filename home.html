@@ -46,7 +46,7 @@
     </div>
 
     <section class="text-page1-container">
-        <h1>GET FOOD FAST &mdash; NOT FAST FOOD</h1>
+        <p id="headerline">GET FOOD FAST &mdash; NOT FAST FOOD</p>
         <div class="hamburger">
             <div></div>
         </div>
@@ -107,11 +107,12 @@
     </section>
 
     <section class="text-page1-container">
-        <h1>How it works &mdash; Simple as 1, 2, 3</h1>
+        <p id="headerline">HOW IT WORKS &mdash; SIMPLE AS 1, 2, 3</p>
         <div class="hamburger">
             <div></div>
         </div>
     </section>
+
     <section>
         <section class="text-page3-container">
             <div class="page3-img">
@@ -137,7 +138,7 @@
     </section>
 
     <section class="text-page1-container">
-        <h1>WE'RE CURRENTLY IN THESE CITIES</h1>
+        <p id="headerline">WE'RE CURRENTLY IN THESE CITIES</p>
         <div class="hamburger">
             <div></div>
         </div>
@@ -197,7 +198,7 @@
         <img class="background-img" src="./img/back-customers.jpg " alt="back-customers" />
         <div class="text-page5-text">
             <section class="text-page1-container">
-                <h1>OUR CUSTOMERS CAN'T LIVE WITHOUT US</h1>
+                <p id="headerline">OUR CUSTOMERS CAN'T LIVE WITHOUT US</p>
                 <div class="hamburger">
                     <div></div>
                 </div>
@@ -230,64 +231,86 @@
     </section>
 
     <section>
-        <h1>START EATING HEALTHY TODAY</h1>
+        <section class="text-page1-container">
+            <p id="headerline">START EATING HEALTHY TODAY</p>
+            <div class="hamburger">
+                <div></div>
+            </div>
+        </section>
+        <div class="price-box">
+            <div class="page6-price">
+                <p>PREMIUM</p>
+                <p>$399 / month</p>
+                <p>That's only 13.30$ per meal</p>
+            </div>
 
-        <p>PREMIUM</p>
-        <p>$399 / month</p>
-        <p>That's only 13.30$ per meal</p>
-        <p>&radic; 1 meal every day</p>
-        <p>&radic; Order 24/7</p>
-        <p>&radic; Access to newest creations</p>
-        <p>&radic; Free delivery</p>
-        <button type="button" class="button1">Sign up now</button>
+            <div class="page6-price">
+                <p>PRO</p>
+                <p>$149 / month</p>
+                <p>That's only 14.90$ per meal</p>
+            </div>
 
-        <p>PRO</p>
-        <p>$149 / month</p>
-        <p>That's only 14.90$ per meal</p>
-        <p>&radic; 1 meal 10 days/month</p>
-        <p>&radic; Order 24/7</p>
-        <p>&radic; Access to newest creations</p>
-        <p>&radic; Free delivery</p>
-        <button type="button" class="button2">Sign up now</button>
+            <div class="page6-price">
+                <p>STARTER</p>
+                <p>19$ / meal</p>
+                <br/>
+            </div>
 
-        <p>STARTER</p>
-        <p>19$ / meal</p>
-        <br/>
-        <p>&radic; 1 meal</p>
-        <p>&radic; Order from 8 am to 12 pm</p>
-        <p>&times; </p>
-        <p>&radic; Free delivery</p>
-        <button type="button" class="button2">Sign up now</button>
+            <div class="page6-desc">
+                <p>&radic; 1 meal every day</p>
+                <p>&radic; Order 24/7</p>
+                <p>&radic; Access to newest creations</p>
+                <p>&radic; Free delivery</p>
+                <button type="button" class="button1">Sign up now</button>
+            </div>
+
+            <div class="page6-desc">
+                <p>&radic; 1 meal 10 days/month</p>
+                <p>&radic; Order 24/7</p>
+                <p>&radic; Access to newest creations</p>
+                <p>&radic; Free delivery</p>
+                <button type="button" class="button2">Sign up now</button>
+            </div>
+
+            <div class="page6-desc">
+                <p>&radic; 1 meal</p>
+                <p>&radic; Order from 8 am to 12 pm</p>
+                <p>&times; </p>
+                <p>&radic; Free delivery</p>
+                <button type="button" class="button2">Sign up now</button>
+            </div>
+        </div>
     </section>
 
     <form>
-        <h1>WE'RE HAPPY TO HEAR FROM YOU</h1>
-        <lable for="lastName">Name</lable>
-        <input type="text" id="lastName" />
-        <br />
+        <section class="text-page1-container">
+            <p id="headerline">WE'RE HAPPY TO HEAR FROM YOU</p>
+            <div class="hamburger">
+                <div></div>
+            </div>
+        </section>
 
-        <br />
-        <lable for="email">Email</lable>
-        <input require type="text" id="email" />
-        <br />
+        <div class="page7-form">
+            <lable for="lastName">Name</lable>
+            <input type="text" id="lastName" />
 
-        <div id="city" name="city" multiple>
-            <option>Friends</option>
-            <option>Search engine</option>
-            <option>advertisement</option>
-            <option>other</option>
+            <lable for="email">Email</lable>
+            <input require type="text" id="email" />
+
+            <label for="city">How did you find us? </label>
+            <select id="city" name="city" multiple>
+                <option>Friends</option>
+                <option>Search engine</option>
+                <option>advertisement</option>
+                <option>other</option>
+            </select>
+
+            <p>Newsletter?</p>
+            <label><input type="checkbox" name="pets" /> Yes, please</label>
+
+            <label>Drop us a line</label>
+            <textarea>Your message.</textarea>
         </div>
-
-        <br>
-        <p>Newsletter?</p>
-        <label><input type="checkbox" name="pets" /> Yes, please</label>
-        <br />
-
-        <label for="your_query">Drop us a line</label>
-        <br>
-        <textarea name="your_query" id="your_query" class="required">Your message.</textarea>
-
-        <br>
 
     </form>
 
