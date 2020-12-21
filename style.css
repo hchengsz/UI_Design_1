@@ -10,6 +10,10 @@ body {
     font-style: normal;
 }
 
+#headerline {
+    font-size: 28px;
+}
+
 .background-img {
     object-fit: cover;
     filter: brightness(0.5);
@@ -285,10 +289,6 @@ body {
     /* border: 2px solid red; */
 }
 
-.page4-text p {
-    /* border: 2px solid red; */
-}
-
 .page4-container {
     display: grid;
     justify-content: start;
@@ -312,7 +312,7 @@ body {
     width: 100%;
     height: 100%;
     color: white;
-    z-indent: 2;
+    z-index: 2;
     left: 0;
     top: 0;
 }
@@ -363,6 +363,34 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.price-box {
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-content: space-between;
+    align-content: start;
+    grid-template-columns: repeat(3, auto);
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 11%;
+}
+
+.page6-price {
+    width: 250px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid red;
+}
+
+.page7-form {
+    display: grid;
+    grid-template-columns: auto 50%;
+    height: 200px;
+    justify-items: center;
+    align-items: center;
 }
 
 ion-icon {
